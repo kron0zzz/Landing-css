@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color:beige;
+    color: black;
+}
+header{
+    height: 100px;
+}
+header h1{
+    margin: 0px 20px;
+}
+
+nav{
+    background-color: #F2E18D;
+    height: 50px;
+}
+nav ul{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li{
+    height: 100%;
+    padding: 15px;
+    list-style-type: none;
+
+}
+nav ul li:hover{
+    background-color:#dbc557;
+    cursor: pointer;
+
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.banner{
+    padding: 0% 20px;
+    
+}
+.banner a{
+    width: 200px;
+    height: 40px;
+    background-color: #F2E18D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+.banner a:hover{
+    background-color: black;
+    color:white;
+}
+
+
+
+.login{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: 500px;
+}
+article{
+    background-color:rgb(211, 211, 211);
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius:5px ;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 18px gray;
+}
+
+article form input{
+    width: 300px;
+    height: 30px; 
+    border-radius: 5px;  
+}
+article form input[type=submit]{
+    background-color: #F2E18D;
+}
+article form input[type=submit]:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}

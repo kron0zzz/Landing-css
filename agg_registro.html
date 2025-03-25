@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="agg_registro.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Agregar registro</h1>
+    </header>
+
+    
+
+    <main>
+        <section class="banner">
+            <a href="listado.html">volver</a>
+        </section>
+
+        <section class="login">
+            <article>
+               <form action="listado.html">
+                    <label for="cod_prestamo">código de préstamo</label>
+                    <br>
+                    <input type="number" name="cod_prestamo" placeholder="00000" required ><br><br>
+
+                    <label for="fecha_prestamo">Fecha del préstamo</label>
+                    <br>
+                    <input type="date" name="fecha_prestamo" placeholder="00/00/0000" required><br><br>
+
+                    <label for="nom_persona">Nombre del deudor</label>
+                    <br>
+                    <input type="text" name="nom_persona" placeholder="Digite el nombre aquí" required><br><br>
+
+                    <label for="cantidad">Cantidad</label>
+                    <br>
+                    <input type="number" name="cantidad" placeholder="0.00" required><br><br>
+
+                    <input type="submit" value="Agregar">
+               </form>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
