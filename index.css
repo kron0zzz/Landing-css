@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    
+}
+body{
+    background-color: beige;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2E18D;
+    padding: 15px 30px;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+      
+}
+
+.logo {
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;   
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+
+
+.inicio {
+    margin-top: 60px;
+    text-align: center;
+    padding: 100px 20px;
+    background-color: beige;
+    color: black;
+}
+
+.inicio h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.inicio p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.boton {
+
+    padding: 10px 20px;
+    transition: 0.3s;
+    width: 200px;
+    height: 40px;
+    background-color: #F2E18D;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.boton:hover {
+    background-color: black;
+    color:white; 
+}
+
+
+
+.sobre_nosotros {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.mision_vision {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.mision_vision article {
+    background-color: #f8d568;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+
+.servicios {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contenido {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.servicio {
+    background-color: #f8d568;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+
+
+.contacto {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contacto input, .contacto textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
